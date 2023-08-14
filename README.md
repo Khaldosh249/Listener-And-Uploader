@@ -1,5 +1,6 @@
 # Listener-And-Uploader
-This is python script that listen to specific folder, once a new file add , the script will upload the file to google drive and delete the file, and save file link!
+This is python script that listen to specific folder, once a new file added , the script will upload the file to google drive and delete the file, and save file link!
+
 
 # Quick Start!
 
@@ -15,7 +16,7 @@ This is python script that listen to specific folder, once a new file add , the 
 ```
 [Unit]
 Description=Google Drive Uploader
-After=multi-user.target
+After=network.target
 [Service]
 Type=simple
 Restart=always
