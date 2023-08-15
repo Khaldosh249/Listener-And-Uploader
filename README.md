@@ -21,6 +21,7 @@ This is python script that listen to specific folder, once a new file added , th
 Folder id is in the folder's link
 
 `https://drive.google.com/drive/folders/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
+
 6. Share the folder with the service account's email and make the role "Edit" to let the service account edit your folder and upload files in it.
 7. Feel free to search about how to create service account in Youtube.
 
