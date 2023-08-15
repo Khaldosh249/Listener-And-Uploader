@@ -5,7 +5,7 @@ This is python script that listen to specific folder, once a new file added , th
 # To Edit before start
 
 1. Paste service account credentials file name in service_file [here](https://github.com/Khaldosh249/Listener-And-Uploader/blob/e835cb0b410a26786812eacf69e74c9451a677c3/service_file.py#L4).
-2. Paste your Google Drive Folder [here](https://github.com/Khaldosh249/Listener-And-Uploader/blob/e835cb0b410a26786812eacf69e74c9451a677c3/Main.py#L8).
+2. Paste your Google Drive Folder ID [here](https://github.com/Khaldosh249/Listener-And-Uploader/blob/e835cb0b410a26786812eacf69e74c9451a677c3/Main.py#L8).
 3. Edit to the path you want to listen [here](https://github.com/Khaldosh249/Listener-And-Uploader/blob/e835cb0b410a26786812eacf69e74c9451a677c3/Main.py#L9).
 4. Edit and create the folder that will save the uploaded files [here](https://github.com/Khaldosh249/Listener-And-Uploader/blob/e835cb0b410a26786812eacf69e74c9451a677c3/Main.py#L15).
 5. Install all libraries.
@@ -55,6 +55,3 @@ then
 `systemctl start YOUR_SERVICE_NAME`
 to start your service
 
-
-
-# Wait for updates Soon!
