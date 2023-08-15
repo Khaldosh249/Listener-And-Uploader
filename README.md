@@ -4,10 +4,10 @@ This is python script that listen to specific folder, once a new file added , th
 
 # To Edit before start
 
-1. Paste service account credentials file name in service_file here.
-2. Paste your Google Drive Folder here.
-3. Edit to the path you want to listen here.
-4. Edit and create the folder that will save the uploaded files here.
+1. Paste service account credentials file name in service_file [here](https://github.com/Khaldosh249/Listener-And-Uploader/blob/e835cb0b410a26786812eacf69e74c9451a677c3/service_file.py#L4).
+2. Paste your Google Drive Folder [here](https://github.com/Khaldosh249/Listener-And-Uploader/blob/e835cb0b410a26786812eacf69e74c9451a677c3/Main.py#L8).
+3. Edit to the path you want to listen [here](https://github.com/Khaldosh249/Listener-And-Uploader/blob/e835cb0b410a26786812eacf69e74c9451a677c3/Main.py#L9).
+4. Edit and create the folder that will save the uploaded files [here](https://github.com/Khaldosh249/Listener-And-Uploader/blob/e835cb0b410a26786812eacf69e74c9451a677c3/Main.py#L15).
 5. Install all libraries.
 
 
@@ -19,6 +19,7 @@ This is python script that listen to specific folder, once a new file added , th
 4. Download account Credentials file and paste it in the same directory with the main File and put the credentials file name in the code.
 5. Create a Folder in your personal Google Drive and paste the folder's id in the code.
 Folder id is in the folder's link
+
 `https://drive.google.com/drive/folders/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 6. Share the folder with the service account's email and make the role "Edit" to let the service account edit your folder and upload files in it.
 7. Feel free to search about how to create service account in Youtube.
@@ -26,10 +27,10 @@ Folder id is in the folder's link
 
 # Make the script service in Linux
 
-run this script to create service file
+run this script to create and edit service file
 `sudo vi /etc/systemd/system/YOUR_SERVICE_NAME.service`
 
-the edit and paste following code
+then edit and paste following script
 ```
 [Unit]
 Description=Google Drive Uploader
